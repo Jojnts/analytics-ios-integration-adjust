@@ -36,6 +36,7 @@
         }
 
         [Adjust appDidLaunch:adjustConfig];
+        [Adjust trackSubsessionStart];
     }
     return self;
 }
